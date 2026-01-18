@@ -12,7 +12,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Selection Sort ka code
+    // Selection Sort logic
     for (i = 0; i < n ; i++) {
         min = i;
         for (j = i + 1; j < n; j++) {
@@ -20,7 +20,7 @@ int main() {
                 min = j;
             }
         }
-        // swap kiya
+        // swap 
         temp = arr[i];
         arr[i] = arr[min];
         arr[min] = temp;
@@ -33,3 +33,5 @@ int main() {
 
     return 0;
 }
+
+//selection sort by mk
